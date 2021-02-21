@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(209, 238, 255);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: 5rem 40vh auto 3rem;
+}

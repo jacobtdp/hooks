@@ -1,0 +1,8 @@
+.nav {
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+    padding: 0 16.67%;
+    background-color: white;
+    box-shadow: 1px 1px lightgrey;
+}
