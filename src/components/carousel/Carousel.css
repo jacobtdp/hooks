@@ -1,6 +1,24 @@
 .carousel {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    width: 60vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carousel-description {
+    width: 75%;
+    padding: 3rem;
+}
+
+.awssld {
+    --control-button-opacity: 0.75
+}
+
+.awssld--organic-arrows {
+    --organic-arrow-color: black;
+}
+
+.awssld__controls button {
+    background-color: white;
 }

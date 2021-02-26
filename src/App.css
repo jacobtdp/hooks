@@ -1,12 +1,46 @@
-body {
-  background-color: rgb(209, 238, 255);
-  color: rgb(0, 0, 0);
+.third-layer {
+  display: flex;
 }
 
-.container {
-  height: 100vh;
 
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  grid-template-rows: 5rem 40vh auto 3rem;
+
+.line-o1 {
+  width: 7px;
+  height: 10vh;
+
+  position: absolute;
+  top: 18vh;
+  left: 35vw;
+
+  background-color: #ff6700;
+}
+.line-white {
+  width: 7px;
+  height: 32vh;
+
+  position: absolute;
+  top: 28vh;
+  left: 35vw;
+
+  background-color: whitesmoke;
+}
+.line-black {
+  width: 7px;
+  height: 25vh;
+
+  position: absolute;
+  top: 60vh;
+  left: 35vw;
+
+  background-color: rgb(30, 30, 30);
+}
+.line-o2 {
+  width: 7px;
+  height: 8vh;
+
+  position: absolute;
+  top: 85vh;
+  left: 35vw;
+
+  background-color: #ff6700;
 }

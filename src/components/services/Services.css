@@ -1,6 +1,34 @@
 .services {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    width: 40vw;
+    height: 40vh;
+}
+
+.services-content {
+    padding-left: 5rem;
+} .services-content > ul > li {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 5px 0;
+} .services-content > h1 {
+    margin-bottom: 3px;
+    margin-top: 3rem;
+} .services-content > h3 {
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.quote {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ff6700;
+} .quote > p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
 }

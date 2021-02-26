@@ -11,9 +11,15 @@ function App() {
     <div className="App">
       <div className="container">
         <Nav />
+        <div className="line-o1"></div>
+        <div className="line-white"></div>
+        <div className="line-black"></div>
+        <div className="line-o2"></div>
         <Hero />
-        <Services />
-        <Carousel />
+        <div className="third-layer">
+          <Services />
+          <Carousel />
+        </div>
         <Footer />
       </div>
     </div>

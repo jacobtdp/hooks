@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './Hero.css';
+import background from '../../assets/hero.jpg';
 
-class Nav extends Component {
+class Hero extends Component {
     render(){
         return(
-            <div className="hero">Hero Image</div>
+            <div className="hero" style={{ backgroundImage: `url(${background})` }}>
+                <div className="hero-overlay">
+                    <h2 className="hero-text">Quality home construction serving King and Kitsap counties.</h2>
+                </div>
+            </div>
         )
     }
 }
 
-export default Nav;
+export default Hero;

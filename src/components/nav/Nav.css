@@ -1,8 +1,49 @@
-.nav {
-    grid-column-start: 1;
-    grid-column-end: 7;
+.nav{
+    height: 5.5rem;
+    width:100%;
 
-    padding: 0 16.67%;
-    background-color: white;
-    box-shadow: 1px 1px lightgrey;
+    position: fixed;
+    display: flex;
+}
+
+.logo {
+    width: 12rem;
+    height: 5.5rem;
+    margin-left: 5rem;
+
+    background-color:blue;
+}
+
+
+.nav-content {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: whitesmoke;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+
+    margin-right: 3rem;
+}.options > h3 {
+    height: 66%;
+    width: 7rem;
+
+    color: whitesmoke;
+    background-color: rgb(40, 40, 40);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 1rem;
+}
+
+.nav-shade{
+    width: 34%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
 }
