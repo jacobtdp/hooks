@@ -21,4 +21,5 @@
 
 .awssld__controls button {
     background-color: white;
+    z-index: 3;
 }

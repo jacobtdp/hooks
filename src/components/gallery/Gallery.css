@@ -1,0 +1,28 @@
+.gallery {
+    width: 90vw;
+    height: 110vh;
+
+    padding: 5%;
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gallery-image {
+    width: 90%;
+    height: 90%;
+
+    align-self: center;
+    justify-self: center;
+
+    background-size: cover;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+
+    font-size: 3rem;
+}
