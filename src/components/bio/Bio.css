@@ -4,6 +4,8 @@
     width: 100vw;
 
     background-color: rgb(71, 71, 71);
+    box-shadow: 0px 0px 1rem 5px black;
+
 
     background-size: cover;
 }
@@ -16,23 +18,83 @@
     align-items: center;
     justify-content: center;
 
-    background-color: rgba(20, 20, 20, 0.85);
+    background-color: rgba(20, 20, 20, 0.9);
 }
 
 .bio-frame{
     height: 70vh;
-    width: 50vw;
-    padding: 4rem 10rem;
+    width: 65vw;
+    padding: 5rem;
 
     background-color: whitesmoke;
+    box-shadow: inset 0px 0px 5px black;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items:center;
+    box-sizing: border-box;
+}
+.bio-frame > h3 {
+    font-weight: 300;
 }
 
 
-img {
+
+.title-and-image > img {
     height: 20rem;
+
+    border-radius: 0.5em;
+    margin-right: 5rem;
+}
+.title-and-image > h2 {
+    font-weight: 500;
+    margin-top: -4vh;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .bio-frame {
+        padding: 5rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .bio {
+        margin: 0;
+        height: 90vh;
+        color: whitesmoke;
+
+        box-shadow: 0px 0px 0.5rem 0px black;
+    }
+
+    .bio-frame {
+        padding: 2rem;
+        width: 90vw;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+    }
+
+    .title-and-image > img {
+        display: none;
+    }
+    .bio-frame > h3 {
+        font-size: 1rem;
+    }
+
+    .bio-arrow {
+        border: solid rgb(255, 255, 255);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3vw;
+    
+        position: absolute;
+        left: 47vw;
+        top: 345vh;
+    } 
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
 }

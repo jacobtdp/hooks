@@ -13,6 +13,11 @@ class Gallery extends Component {
     render(){
         return(
             <div className="carousel">
+                <div className="mobile-divider-line-top">
+                    <div className="mobile-divider-carousel-top-black"></div>
+                    <div className="mobile-divider-carousel-top-orangeR"></div>
+                </div>
+
                 <AutoplaySlider
                     play={true}
                     cancelOnInteraction={false} // should stop playing on user interaction
@@ -33,10 +38,17 @@ class Gallery extends Component {
                     ]}
                 >
                 </AutoplaySlider>
-
                 <div className="carousel-description">
                     <h3>Lorem ipsum dolor sit amet, etc, etcetera. Lorem ipsum dolor sit amet and more, etcetera, and more.</h3>
                 </div>
+
+                <i class="carousel-arrow down"></i>
+
+                <div className="mobile-divider-line-bottom">
+                    <div className="mobile-divider-carousel-bottom-orangeL"></div>
+                    <div className="mobile-divider-carousel-bottom-black"></div>
+                </div>
+
             </div>
         )
     }

@@ -8,6 +8,7 @@ class Hero extends Component {
             <div className="hero" style={{ backgroundImage: `url(${background})` }}>
                 <div className="hero-overlay">
                     <h2 className="hero-text">Quality home construction serving King and Kitsap counties.</h2>
+                    <i class="arrow down"></i>
                 </div>
             </div>
         )

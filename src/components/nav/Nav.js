@@ -7,7 +7,7 @@ class Nav extends Component {
             <div className="nav">
                 <div className="nav-content">
                     <div className="logo">
-                        {/* <img src={require('../../assets/logo4.png').default} /> */}
+                        <img src={require('../../assets/logo5.png').default} />
                     </div>
                     <div className="options">
                         <h3>Gallery</h3>

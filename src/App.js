@@ -6,6 +6,7 @@ import Services from './components/services/Services';
 import Carousel from './components/carousel/Carousel';
 import Bio from './components/bio/Bio';
 import Gallery from './components/gallery/Gallery';
+import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -15,10 +16,12 @@ function App() {
 
         <Nav />
 
-        <div className="line-o1"></div>
-        <div className="line-white"></div>
-        <div className="line-black"></div>
-        <div className="line-o2"></div>
+        <div className="line">
+          <div className="line-o1"></div>
+          <div className="line-white"></div>
+          <div className="line-black"></div>
+          <div className="line-o2"></div>
+        </div>
 
         <Hero />
 
@@ -29,7 +32,7 @@ function App() {
 
         <Bio />
         <Gallery />
-        {/* <Contact /> */}
+        <Contact />
 
         <Footer />
       </div>

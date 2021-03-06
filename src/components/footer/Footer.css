@@ -1,11 +1,15 @@
 .footer {
     width: 100vw;
-    height: 3rem;
+    height: 2rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: whitesmoke;
+    background-color: #dfdfdf;
     color: white;
+}
+
+.footer > p {
+    font-size: 0.7rem;
 }
