@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Hero.css';
-import background from '../../assets/hero.jpg';
+import background from '../../hooks_assets/hooks_hero.jpg';
 
 class Hero extends Component {
     render(){
