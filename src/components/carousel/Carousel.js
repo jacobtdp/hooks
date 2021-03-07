@@ -4,10 +4,10 @@ import AutoplaySlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import './Carousel.css';
 
-import imageOne from '../../assets/carousel1.jpg';
-import imageTwo from '../../assets/carousel2.jpg';
-import imageThree from '../../assets/carousel3.jpg';
-import imageFour from '../../assets/carousel4.jpg';
+import imageOne from '../../hooks_assets/hooks_carousel1.jpg';
+import imageTwo from '../../hooks_assets/hooks_carousel2.jpg';
+import imageThree from '../../hooks_assets/hooks_carousel3.jpg';
+import imageFour from '../../hooks_assets/hooks_carousel4.jpg';
 
 class Gallery extends Component {
     render(){

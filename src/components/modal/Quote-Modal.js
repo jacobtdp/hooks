@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Modal.css";
-import background from '../../assets/hero.jpg';
+import background from '../../hooks_assets/hooks_hero.jpg';
 
 import Modal from "react-modal";
 Modal.setAppElement("#root");

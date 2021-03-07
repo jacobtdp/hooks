@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import background from '../../assets/carousel4.jpg';
+import background from '../../hooks_assets/hooks_carousel4.jpg';
 
 import './Gallery.css';
 
