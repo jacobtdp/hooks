@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
 import './Nav.css'
 
+import {Link} from 'react-scroll'
+import Modal from '../modal/Nav-Modal';
+
 class Nav extends Component {
     render(){
+
         return(
             <div className="nav">
                 <div className="nav-content">
-                    <div className="logo">
-                        <img src={require('../../assets/logo5.png').default} />
-                    </div>
+
+                    <Link to="hero" spy={true} smooth={true}>
+                        <div className="logo">
+                            <img src={require('../../assets/logo5.png').default} />
+                        </div>
+                    </Link>
+
                     <div className="options">
-                        <h3>Gallery</h3>
-                        <h3>Contact</h3>
+                        <Link to="bio" spy={true} smooth={true}>
+                            <h3>About Us</h3>
+                        </Link>
+                        <Link to="gallery" spy={true} smooth={true}>
+                            <h3>Gallery</h3>
+                        </Link>
+
+                        <Modal />
+
                     </div>
                 </div>
                 <div className="nav-shade"></div>

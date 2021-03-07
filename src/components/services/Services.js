@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './Services.css';
 
+import Modal from '../modal/Quote-Modal';
+
 class Services extends Component {
+
     render(){
         return(
             <div className="services">
@@ -14,7 +17,7 @@ class Services extends Component {
                     </ul>
                     <h3>*Quotes available for misc</h3>
 
-                    <div className="quote"><p>Get a quote</p></div>
+                    <div className="quote"><p></p><Modal dataName={"this.state.data"}/></div>
                 </div>
             </div>
         )
