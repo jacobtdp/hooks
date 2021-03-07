@@ -1,6 +1,8 @@
 .services {
     width: 40vw;
     height: 40vh;
+
+    padding-bottom: 3rem;
 }
 
 .services-content {
@@ -14,7 +16,7 @@
     margin-top: 3rem;
     font-weight: 600;
 } .services-content > h3 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-weight: 600;
 }
 

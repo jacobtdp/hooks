@@ -13,7 +13,7 @@ class Contact extends Component {
                 <div className="contact-card">
 
 
-                    <img src={require('../../hooks_assets/hooks_logo.png').default} />
+                    <img src={require('../../hooks_assets/hooks_logo_whitesmoke.png').default} />
                     <div className="phone">
                         <h3>Phone: 206-123-4567</h3>
                         <h5>Mon-Fri, 9:00am - 5:00pm</h5>
