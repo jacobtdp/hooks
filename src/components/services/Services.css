@@ -1,6 +1,8 @@
 .services {
     width: 40vw;
     height: 40vh;
+
+    padding-bottom: 3rem;
 }
 
 .services-content {
@@ -14,7 +16,7 @@
     margin-top: 3rem;
     font-weight: 600;
 } .services-content > h3 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-weight: 600;
 }
 
@@ -56,9 +58,9 @@
         align-items: center;
         justify-content: center;
 
-        border: 15px solid rgb(20, 20, 20);
+        border: 0.5rem solid rgb(20, 20, 20);
         border-radius: 5px;
-        margin-top: 2rem;
+        margin-top: 5rem;
     } .services-content {
         padding: 0;
     }

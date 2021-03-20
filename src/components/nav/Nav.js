@@ -13,7 +13,7 @@ class Nav extends Component {
 
                     <Link to="hero" spy={true} smooth={true}>
                         <div className="logo">
-                            <img src={require('../../hooks_assets/hooks_logo_whitesmoke.png').default} />
+                            <img src={require('../../hooks_assets/hooks_logo.png').default} />
                         </div>
                     </Link>
 
