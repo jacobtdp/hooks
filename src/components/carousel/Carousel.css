@@ -38,6 +38,9 @@
         width: 90vw;
         padding: 3rem 0;
     }
+    .carousel-description > h3 {
+        font-weight: 300;
+    }
 
 
 

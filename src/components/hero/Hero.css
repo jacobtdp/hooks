@@ -44,6 +44,9 @@
     .hero-overlay:hover {
         width: 100vw;
     }
+    .hero-text {
+        font-weight: 500;
+    }
 
     .arrow {
         border: solid rgb(255, 255, 255);
